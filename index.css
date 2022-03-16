@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	width: 100%;
+}
+
+#display {
+	font-size: 1rem;
+	height: 3rem;
+	line-height: 1.5rem;
+	margin: auto;
+}
+
+#input {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+}
